@@ -1,11 +1,39 @@
 
 body {
+    
     display: grid;
     grid-column: center;
     align-items: center;
-    text-align: right;
+    text-align: center;
     margin: 0;
     padding: 0;
     justify-content: center;
+    background-image: url(images/me.jpg) ;
+    height: 100vh;
+    background-size: cover;
 
+}
+
+div {
+    font-family: Arial, sans-serif;
+    background-repeat: no-repeat;
+    border: 1px solid black;
+    box-shadow: 2px 4px 8px rgba(0, 0, 0, 0.5);
+    width: 100%;
+    height: auto;
+    color: #373a3c;
+    line-height: 1.5em;
+    word-wrap: break-word;
+    
+}
+
+h1{
+    color: aliceblue;
+    font-size: 90px;
+    letter-spacing: auto;
+    margin: .6em 0;
+
+}
+p{
+    color: beige;
 }
