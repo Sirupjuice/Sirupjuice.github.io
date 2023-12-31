@@ -10,17 +10,16 @@ body {
     justify-content: center;
     background-image: url(images/me.jpg) ;
     height: 100vh;
-    background-size: cover;
+    
 
 }
 
 div {
     font-family: Arial, sans-serif;
     background-repeat: no-repeat;
-    border: 1px solid black;
-    box-shadow: 2px 4px 8px rgba(0, 0, 0, 0.5);
+    border:none;
     width: 100%;
-    height: auto;
+    height: auto !important;
     color: #373a3c;
     line-height: 1.5em;
     word-wrap: break-word;
@@ -29,11 +28,13 @@ div {
 
 h1{
     color: aliceblue;
-    font-size: 90px;
+    font-size: 200%;
     letter-spacing: auto;
     margin: .6em 0;
 
 }
 p{
     color: beige;
+    font-size: 20px;
+    font-weight:100px;
 }
