@@ -3,10 +3,9 @@ body {
     display: grid;
     grid-column: center;
     align-items: center;
-    text-align: center;
+    text-align: right;
     margin: 0;
     padding: 0;
     justify-content: center;
 
 }
-//<!-- class="card text-white bg-primary mb-3" style="max-width: 18rem;" -->
